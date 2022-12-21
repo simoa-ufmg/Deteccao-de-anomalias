@@ -1,0 +1,27 @@
+4647_dataset_clorofila_classif_iqar.xlsx = 3387
+
+Quantidade por classe:
+Estados_Unidos      1830
+Europa               558
+PMQs                 494
+ANA                  175
+Campo_Geo            125
+Campo_Limnologia      89
+GemStat               44
+Canada                36
+Cetesb                36
+
+=============================
+
+turbidez_classes.csv = 5305
+
+Quantidade por classe:
+Estados_Unidos      3967
+PMQs                 726
+ANA                  179
+Campo_Geo            125
+Campo_Limnologia      89
+Europa                76
+GemStat               55
+Cetesb                50
+Canada                38
