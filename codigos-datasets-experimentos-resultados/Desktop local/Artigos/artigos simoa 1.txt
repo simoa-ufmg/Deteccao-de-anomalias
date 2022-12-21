@@ -1,0 +1,40 @@
+Deep learning-based water quality estimation and anomaly detection using Landsat-8/Sentinel-2 virtual constellation and cloud computing
+
+- dataset criado a partir das imagens do Landsat-8 e do Sentinel-2 de vários meses com coletas frequentes.
+- alguns métodos de ML foram avaliados para regressão de algumas variáveis incluindo clorofila e turbidez.
+- o método de detecção de anomalias Empirical Data Analytics (EDA) foi aplicado na série temporal para identificar as amostras anormais
+
+=======================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+An integrated data-driven framework for surface water quality anomaly detection and early warning
+
+- dataset coletado no Rio Potomac da Virgínia Ocidental, EUA
+- 5089 amostras de 27 de janeiro de 2017 a 21 de março de 2017, em intervalo de 15 minutos
+- algoritmo de florestas isoladas empregado para deteccao de anomalias
+- falsos positivos e falsos negativos usadas como metricas de avaliacao
+
+=======================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+Improving Water Quality Assessment through Anomaly Detection Using Hybrid Convolutional Neural Network Approach
+
+- dataset GECCO 2019 (SPOT Seven Lab 2019)
+- contem 8 indicadores (horario da medicao, temperatura da agua, pH, condutividade eletrica, turbidez, coeficiente de absorção espectral, modulação de frequencia de pulso, classe) que foram coletados de 1 de julho de 2017 a 30 de setembro de 2017. Ao todo são 132480 registros, sendo 132268 normais e 212 anomalias
+- foi feito testes com tecnicas de sobreamostragem e subamostragem. Usada a técnica SMOTE.
+- modelo proposto: combinação de uma cnn com ELM (extreme learning machine)
+- metricas empregadas: acuracia, rebocação, precisao e f1 score
+- dataset: https://zenodo.org/record/3884444#.YqUmeHbMKM8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

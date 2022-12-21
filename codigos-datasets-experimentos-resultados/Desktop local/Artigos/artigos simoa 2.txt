@@ -1,0 +1,104 @@
+ARTIGO QUE REVISEI
+Deep Feature and Domain Knowledge Fusion Network for Mapping Surface Water Bodies by Fusing Google Earth RGB and Sentinel-2 images
+
+Foi proposta uma rede profunda de fusão de conhecimento de recursos e domínios (DFDKFNet) para mapear corpos d'água de superfície, fundindo imagens Google Earth e Sentinel-2, incorporando conhecimento de domínio.
+Dados: 11343 patches GE/S2 cortados em tamanho 256x256, coletados na China. 95% para treino e 5% para validação.
+O método proposto chamado DFDKFNet é interessante, construído com técnicas de dowsncaling, depois com uma rede U-Net para extração de recursos para depois uma topologia de adaptação de domínio só para depois classificar com uma rede neural densa.
+Os resultados foram comparados com vários outros métodos da literatura, batendo todos.
+Questionei os resultados pois aparentemente os experimentos foram rodados uma vez só.
+
+
+--------------------------------------------
+Artigo: 5 - Aprendizado de máquina para detecção de anomalias em sinais de fluorescência de cianobactérias
+Revista: Water Research (2021)
+
+Dados: coletados de sensores de 2014 a 2019, a cada 15 minutos para monitoramento do Lago Erie, para quatro pontos de coleta. O parâmetro de interesse é a fluorescência da ficocianina. Foi usado o StandardScaler para pré-processamento.
+
+Algoritmos usados: fator de outlier local (LOF), máquina de vetor de suporte de uma classe (SVM), envelope elíptico e floresta de isolamento (iForest). Foi usado python e scikit-learn.
+
+Métricas de avaliação: precisão, revocação e f1 score.
+
+Treinamento: dados de 2014 a 2018, teste com dados de 2019
+
+Afirmação do artigo: "As descobertas deste estudo demonstram pela primeira vez que a detecção de anomalias usando aprendizado de máquina não supervisionado pode ser usada para detectar a atividade de cianobactérias a partir de dados de fluorescência de ficocianina."
+
+Comentários Bruno: não tem nada demais no trabalho em relação ao nosso.
+
+--------------------------------------------
+Artigo: 6 - Uma pesquisa de métodos de aprendizado de máquina aplicados à detecção de anomalias em dados de qualidade de água potável
+Revista: Urban Water Journal (2019)
+
+Artigo que resume vários trabalhos na literatura que usam detecção de anomalias para qualidade da água usando técnicas de ML. Concluíram que técnicas de DL aparnemtenete são melhores do que com abordagens tradicionais de ML, contudo, é difícil afirmar isso pois são conuntos de dados diferentes.
+
+Os artigos analisados empregavam datasets que fazia sentido o uso de séries temporais. Os datasets eram coletados por redes de sensores.
+
+Comentários Bruno: não tem nada demais no trabalho. Fizeram um levantamento dos artigos que sempre fazem as mesmas coisas: pegar um dataset temporal e usam alguma técnica de detecção de anomalias nos dados. Não falou nada sobre sensoriamento remoto aqui no artigo, sempre com sensores (sondas).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===========================================
+
+Aprendizado de máquina para detecção de anomalias em sinais de fluorescência de cianobactérias
+
+Uma pesquisa de métodos de aprendizado de máquina aplicados à detecção de anomalias em dados de qualidade de água potável
+
+Uma estrutura integrada orientada por dados para detecção e alerta precoce de anomalias na qualidade da água de superfície
+
+Uma Estratégia de Detecção de Anomalias Baseada em Incongruência para Analisar a Poluição da Água em Imagens de Sensoriamento Remoto
+
+Abordagem de similaridade espectral para mapear a turbidez de um corpo d'água interior
