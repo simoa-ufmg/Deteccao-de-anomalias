@@ -1,0 +1,9 @@
+Estados_Unidos = 0
+Europa = 1
+PMQs = 2
+Campo_Geo = 3
+Campo_Limnologia = 4
+GemStat = 5
+ANA = 6
+Cetesb = 7
+C6da = 8
