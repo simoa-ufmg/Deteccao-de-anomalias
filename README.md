@@ -13,6 +13,8 @@ Arquivos (modelo pré-treinado e dataset da represa): https://drive.google.com/d
 
 Essa pesquisa tem como objeto de exploração métodos de Machine Learning especializados em detecção de anomalias (SVM One Class e Florestas Isoladas) a partir do processamento de dados de imagens de satélite (Sentinel-2), a fim de identificar pontos geográficos com elevada concentração de turbidez no Reservatório de Três Marias. Os métodos SVM One Class e Florestas Isoladas registraram níveis de desempenho similares, sendo a métrica F1-score obtida de 94,54\% e 96,15\%, respectivamente, com destaque para a acurácia de Florestas Isoladas (96,15%) e suas baixas taxas de falsos positivos/negativos (3,85%). Os mapas de identificação de anomalias gerados por meio dos modelos ratificaram a aplicabilidade dos métodos de detecção no diagnóstico de reservatórios em contextos hidrológicos distintos (seca e chuva), identificando com eficácia localidades com níveis de turbidez anômalos.
 
+A imagem abaixo ilustra a represa de Três Marias. Após o modelo ter sido treinado, todos os pontos obtidos pela imagem de satélite da represa foram preditos pelo modelo e consequentemente classificados. A classe '0' representa uma qualidade de água que possui baixa turbidez (dado normal), enquanto a classe '1' uma alta turbidez (anomalia). É possível perceber que os dados anômalos (alta turbidez) são encontrados próximo as margens da represa, o que faz sentido, uma vez que a água é realmente mais escura nesses pontos do mapa.
+
 ![Imagem gerada pelo modelo de detecção de anomalias para a represa de Três Marias](mapa_gerado_modelo_deteccao_anomalias.png)
 
 
