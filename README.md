@@ -3,6 +3,19 @@ Códigos e experimentos para o desenvolvimento dos modelos de detecção de anom
 
 Especificamente para essa parte de detecção de anomalias, foi desenvolvido um artigo científico que assim que publicado, seu link será disponibilizado aqui. O repositório aqui presente faz referência ao artigo citado.
 
+Existe um notebook disponível no Colab onde é possível carregar um modelo pré-treinado, carregar o dataset que contém a represa de Três Marias e fazer a inferência de cada ponto no modelo de detecção de anomalias. Em seguida, o mapa pode ser visualizado.
+
+Colab notebook para inferência: https://colab.research.google.com/drive/1hO4pU-Yssrv3sq7NN9h8flDn_7Qo6dNx
+
+Arquivos (modelo pré-treinado e dataset da represa): https://drive.google.com/drive/folders/1o2aHSjao1exmgb-STiqhJflJ36wnBf5l
+
+# Resumo do artigo
+
+Este artigo tem como objeto de exploração métodos de Machine Learning especializados em detecção de anomalias (SVM One Class e Florestas Isoladas) a partir do processamento de dados de imagens de satélite (Sentinel-2), a fim de identificar pontos geográficos com elevada concentração de turbidez no Reservatório de Três Marias. Os métodos SVM One Class e Florestas Isoladas registraram níveis de desempenho similares, sendo a métrica F1-score obtida de 94,54\% e 96,15\%, respectivamente, com destaque para a acurácia de Florestas Isoladas (96,15%) e suas baixas taxas de falsos positivos/negativos (3,85%). Os mapas de identificação de anomalias gerados por meio dos modelos ratificaram a aplicabilidade dos métodos de detecção no diagnóstico de reservatórios em contextos hidrológicos distintos (seca e chuva), identificando com eficácia localidades com níveis de turbidez anômalos.
+
+![Imagem gerada pelo modelo de detecção de anomalias para a represa de Três Marias](mapa_gerado_modelo_deteccao_anomalias.png)
+
+
 ## Diretório 'codigos-datasets-experimentos-resultados'
 
 Nesse diretório é possível encontrar todos os códigos implementados, datasets e experimentos realizados, além dos resultados obtidos, no que diz respeito ao desenvolvimento de um modelo de aprendizado de máquina usando a abordagem de detecção de anomalias.
